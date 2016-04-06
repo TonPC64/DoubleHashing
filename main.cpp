@@ -11,7 +11,7 @@ int main(){
 	bool create = false;
 	do{
 		system("cls");
-		cout << "\t##### Hashing OpenAddressing #####\n\n";
+		cout << "\t#####Double Hashing OpenAddressing #####\n\n";
 		cout << "\t1.) CREATE HASH TABLE\n\t2.) INSERT\n\t3.) PRINT\n\t4.) FIND\n\t5.) REMOVE\n\t6.) EXIT\n\n\tEnter Choice : ";
 		cin >> choice;
 		switch (choice[0])
