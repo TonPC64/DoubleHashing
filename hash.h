@@ -167,6 +167,7 @@ void HashTable<HashedObj>::remove(const HashedObj & x)
 	int currentPos = findPos(x);
 	if (isActive(currentPos))
 		array[currentPos].info = DELETED;
+	cout << "\tCopy Right By kingkong64" << endl;
 }
 
 ////////////////////////////////////////////////////////
